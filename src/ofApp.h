@@ -30,4 +30,6 @@ class ofApp : public ofBaseApp{
     
     //instead of using ofVideoPlayer we use the ofQTKitPlayer directly
     ofQTKitPlayer fingerMovie;
+    ofRectangle VidSample;
+    ofPoint svgSize, vidSize;
 };
